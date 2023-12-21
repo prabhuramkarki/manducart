@@ -1,0 +1,155 @@
+.text {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  margin-bottom: 20px;
+  min-height: 5vh;
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  min-width: 10px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 60px;
+  padding: 5px 10px;
+  border: 0.8px solid rgb(76, 76, 76);
+}
+
+.search-bar input {
+  flex: 1;
+  border: 0;
+  outline: 1px;
+  padding: 10px 20px;
+  padding-right: 300px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.search-bar button i {
+  width: 8px;
+}
+.search-bar button {
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+/* for search display  */
+.container-search {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.sidebar {
+  margin-left: 60px;
+  width: 250px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar-right {
+  width: 70%;
+  border-radius: 3px;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.card {
+  height: 28rem;
+  object-fit: contain;
+  position: relative;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all ease 0.2s;
+  object-fit: contain;
+  width: 250px !important;
+  margin-bottom: 10px;
+}
+
+/* .sidebar  */
+
+.sidebar-left {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+.filter label {
+  margin: 10px 0px 1px 0px;
+  float: left;
+}
+
+.filter input {
+  margin-top: 1px;
+  margin-bottom: 10px;
+
+  width: 100%;
+  padding: 7px 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#filter-btn {
+  width:100% ;
+  align-items: center;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+#filter-btn i{
+  color: #fff;
+}
+
+#filter-btn:hover {
+  background-color: #555555;
+  box-shadow: 5px 5px 0px;
+  transition: all ease 0.5s;
+}
+
+.filter select {
+  margin-top: 1px;
+  margin-bottom: 10px;
+
+  width: 100%;
+  padding: 7px 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
